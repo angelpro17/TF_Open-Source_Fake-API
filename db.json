@@ -1,0 +1,519 @@
+{
+    "users": [
+      {
+        "id": "1",
+        "username": "Carla Muñoz",
+        "email": "carla@example.com",
+        "password": "123456"
+      },
+      {
+        "id": "2",
+        "username": "Luis Ramirez",
+        "email": "luis@example.com",
+        "password": "password"
+      },
+      {
+        "username": "José Morales",
+        "email": "jose@example.com",
+        "password": "jose123",
+        "id": "3"
+      },
+      {
+        "username": "pepe",
+        "email": "pepe@gmail.com",
+        "password": "pepe123",
+        "id": "4"
+      },
+      {
+        "username": "",
+        "email": "",
+        "password": "",
+        "id": "5"
+      },
+      {
+        "username": "pepe2",
+        "email": "pepe@gmail.com",
+        "password": "pepe",
+        "id": "6"
+      },
+      {
+        "username": "pepe3",
+        "email": "pepe3@gmail.com",
+        "password": "1234",
+        "id": "7"
+      },
+      {
+        "username": "juan",
+        "email": "juan@gmail.com",
+        "password": "1234",
+        "id": "8"
+      },
+      {
+        "username": "",
+        "email": "",
+        "password": "",
+        "id": "9"
+      },
+      {
+        "username": "",
+        "email": "",
+        "password": "",
+        "id": "10"
+      },
+      {
+        "username": "",
+        "email": "",
+        "password": "",
+        "id": "11"
+      },
+      {
+        "username": "pepe4",
+        "email": "pepe4@master.com",
+        "password": "pepe",
+        "id": "12"
+      },
+      {
+        "username": "pepe5",
+        "email": "pepe5@gmail.com",
+        "password": "pepe5",
+        "id": "13"
+      }
+    ],
+    "reservas": [
+      {
+        "id": "1",
+        "userId": 1,
+        "usuario": "Carla Muñoz",
+        "ubicacion": "San Miguel",
+        "hora": "15:00",
+        "estado": "Confirmado",
+        "fecha": "2024-11-17",
+        "driver": {
+          "name": "Jose Morales",
+          "photo": "https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "vehiclePlate": "C3D-890",
+          "discount": "5",
+          "discountCode": "DESC5"
+        },
+        "destinationId": 1
+      },
+      {
+        "id": "2",
+        "userId": 2,
+        "usuario": "Luis Ramirez",
+        "ubicacion": "Villa",
+        "hora": "16:30",
+        "estado": "Pendiente",
+        "fecha": "2024-11-14",
+        "driver": {
+          "name": "Ana Gutierrez",
+          "photo": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "vehiclePlate": "F8G-123",
+          "discount": "10",
+          "discountCode": "DESC10"
+        }
+      },
+      {
+        "id": "3",
+        "userId": 3,
+        "usuario": "José Morales",
+        "ubicacion": "Monterrico",
+        "hora": "17:00",
+        "estado": "Pendiente",
+        "fecha": "2024-06-04",
+        "driver": {
+          "name": "Carlos Perez",
+          "photo": "https://plus.unsplash.com/premium_photo-1683121366070-5ceb7e007a97?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "vehiclePlate": "H2K-789",
+          "discount": "15",
+          "discountCode": "DESC15"
+        }
+      },
+      {
+        "usuario": "María Vargas",
+        "ubicacion": "San Isidro",
+        "hora": "13:00",
+        "estado": "Confirmado",
+        "fecha": "2024-09-30",
+        "driver": {
+          "name": "María Vargas",
+          "photo": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=2722&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "vehiclePlate": "E5F-234",
+          "discount": "8%",
+          "discountCode": "maria-vargas"
+        },
+        "destinationId": 5,
+        "id": "4"
+      }
+    ],
+    "university": [
+      {
+        "nombre": "Pontificia Universidad Católica del Perú",
+        "ubicacion": "Av. Universitaria 1801, San Miguel",
+        "distrito": "San Miguel",
+        "logo": "https://scontent.flim38-1.fna.fbcdn.net/v/t39.30808-6/220961507_10159215284491310_3062319909914403409_n.png?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEOiHxdDEEGnGeBFu_IxxfLdPEtNhbaHml08S02FtoeaQHZiv0wq8T4ZHRoQo0a3XrL3UCRmy6e7TQZNtn1xa6x&_nc_ohc=jDQb07d8FVsQ7kNvgEqE-S1&_nc_ht=scontent.flim38-1.fna&oh=00_AfC60V5tlVRkoZMXQysTdT2ms02X3ER0QwnQV9I6t8ZV6w&oe=6635216B",
+        "id": "28d3"
+      },
+      {
+        "nombre": "Universidad Nacional Mayor de San Marcos",
+        "ubicacion": "Av. Venezuela s/n, Cercado de Lima",
+        "distrito": "Cercado de Lima",
+        "logo": "https://scontent.flim38-1.fna.fbcdn.net/v/t1.18169-9/1533756_600212063383382_1818556629_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEELMB2Oq9q8PtZKyPaNqyLvNI_vcuGkve80j-9y4aS9023-BB7qJOR3MEcw3rDhg7HtiVAT_jMK2ZghHRTa3G3&_nc_ohc=xrs2PSwFJIAQ7kNvgH-gxxD&_nc_ht=scontent.flim38-1.fna&oh=00_AfCVCkSPdqglf87tLns3tBQ4s6I5HqiuV0uz5DZ1DqGqcA&oe=6656AE22",
+        "id": "d74e"
+      },
+      {
+        "nombre": "Universidad de Lima",
+        "ubicacion": "Av. Javier Prado Este 4600, Surco",
+        "distrito": "Surco",
+        "logo": "https://d30mzt1bxg5llt.cloudfront.net/public/uploads/images/_signatoryLogo/logo-ulima.png",
+        "id": "72d5"
+      },
+      {
+        "nombre": "Universidad del Pacífico",
+        "ubicacion": "Av. Salaverry 2020, Jesús María",
+        "distrito": "Jesús María",
+        "logo": "https://yt3.googleusercontent.com/qPhoOvJGAUGA_ymHIjm4uNdRGG9HJBIlqM5dEFDsZz4rFZr3zLimr5UDi8dDyUnmJ6SYxLHPyw=s900-c-k-c0x00ffffff-no-rj",
+        "id": "a843"
+      },
+      {
+        "nombre": "Universidad Nacional de Ingeniería",
+        "ubicacion": "Av. Túpac Amaru 210, Rímac 15333",
+        "distrito": "Rímac",
+        "logo": "https://scontent.flim38-1.fna.fbcdn.net/v/t39.30808-6/305927544_520896430035819_5223091237612234341_n.png?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHXJ3my_QwiTYDOOU8qTOc8JnvwzvBF7Rgme_DO8EXtGMe0zih2qWcCmsad__pmH3LkjBOseLbDfOYjphxVKT7D&_nc_ohc=NpleHXDqgBMAb4wUAdH&_nc_ht=scontent.flim38-1.fna&oh=00_AfCTWeIrp8NQmPogvEwNU6Ci423ZFZRIlCH9nSN-_eiRIQ&oe=66350656",
+        "id": "bd9b"
+      },
+      {
+        "nombre": "Universidad Peruana de Ciencias Aplicadas",
+        "ubicacion": "Prolongación Primavera 2390, Santiago de Surco 15023",
+        "distrito": "Surco",
+        "logo": "https://aulavirtual.upc.edu.pe/branding/_1_1/loginLogo/CustomLoginLogo.png?m=lo4e83of",
+        "id": "eba9"
+      },
+      {
+        "nombre": "Universidad Peruana de Ciencias Aplicadas",
+        "ubicacion": "Av. de la Marina 2810, San Miguel 15087",
+        "distrito": "San Miguel",
+        "logo": "https://aulavirtual.upc.edu.pe/branding/_1_1/loginLogo/CustomLoginLogo.png?m=lo4e83of",
+        "id": "92e2"
+      },
+      {
+        "nombre": "Universidad Peruana de Ciencias Aplicadas",
+        "ubicacion": "Av Alameda San Marcos 11, Chorrillos 15067",
+        "distrito": "Chorrillos",
+        "logo": "https://aulavirtual.upc.edu.pe/branding/_1_1/loginLogo/CustomLoginLogo.png?m=lo4e83of",
+        "id": "67b2"
+      },
+      {
+        "nombre": "Universidad Peruana de Ciencias Aplicadas",
+        "ubicacion": "Av. Gral. Salaverry 2255, San Isidro 15076",
+        "distrito": "San Isidro",
+        "logo": "https://aulavirtual.upc.edu.pe/branding/_1_1/loginLogo/CustomLoginLogo.png?m=lo4e83of",
+        "id": "94e4"
+      },
+      {
+        "nombre": "Universidad Peruana Cayetano Heredia ",
+        "ubicacion": "Av. Honorio Delgado 430, San Martín de Porres",
+        "distrito": "San Martín de Porres",
+        "logo": "https://intranet.upch.edu.pe/account/static/img/upch/logo/isotipo.jpg",
+        "id": "12c2"
+      },
+      {
+        "nombre": "Universidad San Ignacio de Loyola",
+        "ubicacion": "Av. La Fontana 750, La Molina",
+        "distrito": "La Molina",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Usil.jpg/800px-Usil.jpg",
+        "id": "fb7b"
+      },
+      {
+        "nombre": "Universidad de San Martín de Porres ",
+        "ubicacion": "Av. Tomás Marsano 151, Surquillo",
+        "distrito": "Surquillo",
+        "logo": "https://carrerasadistancia.pe/logos/original/logo-universidad-de-san-martin-de-porres.png",
+        "id": "e03c"
+      },
+      {
+        "nombre": "Universidad Tecnológica del Perú ",
+        "ubicacion": "Ctra. Panamericana S km 16, Villa EL Salvador 15842",
+        "distrito": "Villa el salvador",
+        "logo": "https://scontent.flim38-1.fna.fbcdn.net/v/t39.30808-6/353614983_674002638105441_8607951844457866335_n.png?_nc_cat=1&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFjomUZJ6sSSQFfAkvT0mUxbisploTb36RuKymWhNvfpK4ZtmVXSz9S8I0Q9iqPX8i29MPfR3nhArpIQMBqb0RK&_nc_ohc=_73BHiwLr5sAb6NlBgK&_nc_ht=scontent.flim38-1.fna&oh=00_AfCZw_ebnPN0ubggaKozjydRJdFQ5oi4dO1byisPd5jBVA&oe=66350C7C",
+        "id": "cfce"
+      },
+      {
+        "nombre": "Universidad Ricardo Palma ",
+        "ubicacion": "Av. Benavides 5440, Surco",
+        "distrito": "Surco",
+        "logo": "https://scontent.flim38-1.fna.fbcdn.net/v/t39.30808-6/424631955_694075546237709_2031673221188518703_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHynOI8NIyxKPctBQDTBucR6LI2_I0y7QTosjb8jTLtBG8SLGrhOE8KjgdBWb0AE03nfS0aXUE6OiD46CKZrXoH&_nc_ohc=BaTM29Y-5tcQ7kNvgFthkib&_nc_ht=scontent.flim38-1.fna&oh=00_AfBXEoHZJfXh0-RIsGzUKCWy4yU9amyML1lffInKfYLFXw&oe=66350577",
+        "id": "9a2c"
+      },
+      {
+        "nombre": "Universidad Nacional Agraria La Molina ",
+        "ubicacion": "Av. La Molina s/n, La Molina",
+        "distrito": "La Molina",
+        "logo": "https://scontent.flim38-1.fna.fbcdn.net/v/t39.30808-6/327326062_891709198641902_2197501223531949798_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHBmN62wdDY_UAgTtH7Omco3TSUlZZICBPdNJSVlkgIE3pU7mWuvBf0-CC4P38d4GJzAkt5-t9IVbn2tycDBRdf&_nc_ohc=3NfyLJTRvzgAb5PTTDI&_nc_ht=scontent.flim38-1.fna&oh=00_AfCrJE0GE5mLG1-onnvjh05IX3BEZZCCbF-twUfmoewSgg&oe=663509FB",
+        "id": "3816"
+      },
+      {
+        "nombre": "Universidad Nacional de Educación Enrique Guzmán y Valle",
+        "ubicacion": "Av. Circunvalación s/n, Chosica",
+        "distrito": "Chosica",
+        "logo": "https://www.une.edu.pe/test/images/logoune.gif",
+        "id": "ef46"
+      },
+      {
+        "nombre": "Universidad Nacional Federico Villarreal ",
+        "ubicacion": "Av. Nicolás de Piérola 351, Cercado de Lima",
+        "distrito": "Cercado de Lima",
+        "logo": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/092017/universidad_nacional_federico_villareal.jpg?bFfkk9fqQQ6fv_.rS9P6KU5iWsfOE4Ii&itok=ipcpJPAB",
+        "id": "c6d2"
+      },
+      {
+        "nombre": "Universidad Femenina del Sagrado Corazón",
+        "ubicacion": "Av. Los Frutales 954, San Isidro",
+        "distrito": "San Isidro",
+        "logo": "https://scontent.flim38-1.fna.fbcdn.net/v/t39.30808-6/306774470_199149049127479_3859955433327347705_n.png?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE-8ZC3TmXdXObJf6iM41TJdc63599tmaF1zrfn322ZoZ4utcpL9kgOgTUU6HFmluJJAtGBspJY1YxZ1Q0wdwok&_nc_ohc=dycvbPhOgLUQ7kNvgHtM_9M&_nc_ht=scontent.flim38-1.fna&oh=00_AfCDT6MLszpMMlk6kaUFCAZkdtleWBAihoICgc8r9Zv3AA&oe=66351C3C",
+        "id": "15aa"
+      }
+    ],
+    "destinations": [
+      {
+        "id": "1",
+        "name": "UPC - San Miguel",
+        "location": "San Miguel",
+        "nextAvailableTime": "15:30",
+        "rating": 4.5,
+        "imageUrl": "https://www.upc.edu.pe/nosotros/campus/campus-san-miguel/img/frontis_campus.jpg",
+        "driver": {
+          "name": "Carla Muñoz",
+          "photo": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "vehiclePlate": "A1B-234",
+          "discount": "10%",
+          "discountCode": "carla-munoz"
+        }
+      },
+      {
+        "id": "2",
+        "name": "UPC - Villa",
+        "location": "Villa",
+        "nextAvailableTime": "16:00",
+        "rating": 4.7,
+        "imageUrl": "https://www.upc.edu.pe/nosotros/campus/campus-villa/img/villa-1.jpg",
+        "driver": {
+          "name": "Luis Ramirez",
+          "photo": "https://plus.unsplash.com/premium_photo-1672907031609-16b4d3db8bc6?q=80&w=2630&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "vehiclePlate": "B2C-567",
+          "discount": "15%",
+          "discountCode": "luis-ramirez"
+        }
+      },
+      {
+        "id": "3",
+        "name": "UPC - Monterrico",
+        "location": "Monterrico",
+        "nextAvailableTime": "17:00",
+        "rating": 4.6,
+        "imageUrl": "https://www.upc.edu.pe/nosotros/campus/campus-monterrico/img/monterrico-1.jpg",
+        "driver": {
+          "name": "José Morales",
+          "photo": "https://plus.unsplash.com/premium_photo-1683121366070-5ceb7e007a97?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "vehiclePlate": "C3D-890",
+          "discount": "5%",
+          "discountCode": "jose-morales"
+        }
+      },
+      {
+        "id": "4",
+        "name": "USIL - Magdalena",
+        "location": "Magdalena",
+        "nextAvailableTime": "13:30",
+        "rating": 4.5,
+        "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipPQCeDubX0cif25vlhPKEG_v5mqanib8HVqqLYz=s1360-w1360-h1020",
+        "driver": {
+          "name": "Ana Gutierrez",
+          "photo": "https://plus.unsplash.com/premium_photo-1664541336896-b3d5f7dec9a3?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "vehiclePlate": "D4E-123",
+          "discount": "12%",
+          "discountCode": "ana-gutierrez"
+        }
+      },
+      {
+        "id": "5",
+        "name": "San Isidro - UPC",
+        "location": "San Isidro",
+        "nextAvailableTime": "12:30",
+        "rating": 4.5,
+        "imageUrl": "https://www.upc.edu.pe/nosotros/campus/campus-san-isidro/img/campus-si-vista-frontal.jpg",
+        "driver": {
+          "name": "María Vargas",
+          "photo": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=2722&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "vehiclePlate": "E5F-234",
+          "discount": "8%",
+          "discountCode": "maria-vargas"
+        }
+      },
+      {
+        "id": "6",
+        "name": "UPN - San Miguel",
+        "location": "San Miguel",
+        "nextAvailableTime": "17:30",
+        "rating": 4.5,
+        "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipMhyUwbPsqOipVl6iGaRi6JYM2GPMQzrmx6s32D=s1360-w1360-h1020",
+        "driver": {
+          "name": "Fernando Córdova",
+          "photo": "https://plus.unsplash.com/premium_photo-1683134080778-aaa686741d0a?q=80&w=2784&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "vehiclePlate": "F6G-567",
+          "discount": "10%",
+          "discountCode": "fernando-cordova"
+        }
+      },
+      {
+        "id": "7",
+        "name": "UPN - Los Olivos",
+        "location": "Los Olivos",
+        "nextAvailableTime": "14:00",
+        "rating": 4.3,
+        "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipP7ux79wENe4D9OUbsjVJkwvLkm3GXK2CrvwqJB=s1360-w1360-h1020",
+        "driver": {
+          "name": "Luis Sanchez",
+          "photo": "https://plus.unsplash.com/premium_photo-1689977968861-9c91dbb16049?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "vehiclePlate": "G7H-890",
+          "discount": "7%",
+          "discountCode": "luis-sanchez"
+        }
+      },
+      {
+        "id": "8",
+        "name": "UTP - Lima Centro",
+        "location": "Lima Centro",
+        "nextAvailableTime": "13:00",
+        "rating": 4.4,
+        "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipMvg0cM0l4HyGVMYlegPjF_bKgRSr6MpVcY4Nyl=s1360-w1360-h1020",
+        "driver": {
+          "name": "Carlos Palacios",
+          "photo": "https://plus.unsplash.com/premium_photo-1689539137236-b68e436248de?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "vehiclePlate": "H8I-123",
+          "discount": "10%",
+          "discountCode": "carlos-palacios"
+        }
+      },
+      {
+        "id": "9",
+        "name": "UTP - San Juan de Lurigancho",
+        "location": "San Juan de Lurigancho",
+        "nextAvailableTime": "12:00",
+        "rating": 4.2,
+        "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipMBrv3GWR-yVxj83kXTXx5JVqfsWzJAPSf_DGAm=s1360-w1360-h1020",
+        "driver": {
+          "name": "Andrea Rodríguez",
+          "photo": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D0",
+          "vehiclePlate": "I9J-234",
+          "discount": "5%",
+          "discountCode": "andrea-rodriguez"
+        }
+      },
+      {
+        "id": "10",
+        "name": "UTP - San Isidro",
+        "location": "San Isidro",
+        "nextAvailableTime": "14:30",
+        "rating": 4.3,
+        "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipMSj0i13LxVxWlzls7SvO6l3p94oOelShE1IsxF=s1360-w1360-h1020",
+        "driver": {
+          "name": "Juan Perez",
+          "photo": "https://plus.unsplash.com/premium_photo-1689632031083-518b012767a4?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "vehiclePlate": "J1K-567",
+          "discount": "8%",
+          "discountCode": "juan-perez"
+        }
+      },
+      {
+        "id": "11",
+        "name": "ESAN",
+        "location": "Surco",
+        "nextAvailableTime": "15:00",
+        "rating": 4.8,
+        "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipPoGmIitZvH6_x3r0DdcENEJYXyKhXULIVvD9QT=w408-h306-k-no",
+        "driver": {
+          "name": "Diego Ramírez",
+          "photo": "https://plus.unsplash.com/premium_photo-1688891564708-9b2247085923?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "vehiclePlate": "K2L-890",
+          "discount": "15%",
+          "discountCode": "diego-ramirez"
+        }
+      },
+      {
+        "id": "12",
+        "name": "ULIMA",
+        "location": "Monterrico",
+        "nextAvailableTime": "12:30",
+        "rating": 4.7,
+        "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipMlTl5dKrCx0IjEsSilTngGBmwV4xB35rgLt0OR=w408-h306-k-no",
+        "driver": {
+          "name": "Pablo Quintana",
+          "photo": "https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "vehiclePlate": "L3M-123",
+          "discount": "5%",
+          "discountCode": "pablo-quintana"
+        }
+      },
+      {
+        "id": "13",
+        "name": "PUCP",
+        "location": "San Miguel",
+        "nextAvailableTime": "13:30",
+        "rating": 4.9,
+        "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipNkLfSEJM7yi91Y6chewBLKBgDjx1ugz3JEDQCL=w408-h272-k-no",
+        "driver": {
+          "name": "Lucía Fernández",
+          "photo": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=2459&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "vehiclePlate": "M4N-234",
+          "discount": "12%",
+          "discountCode": "lucia-fernandez"
+        }
+      },
+      {
+        "id": "14",
+        "name": "UTEC",
+        "location": "Barranco",
+        "nextAvailableTime": "11:30",
+        "rating": 4.6,
+        "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipMxHAHAnD1XeQe_N4xiGhFmNcbxZoLPaKEcJkoW=w408-h272-k-no",
+        "driver": {
+          "name": "Jorge Silva",
+          "photo": "https://plus.unsplash.com/premium_photo-1689977807477-a579eda91fa2?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "vehiclePlate": "N5O-567",
+          "discount": "10%",
+          "discountCode": "jorge-silva"
+        }
+      },
+      {
+        "id": "15",
+        "name": "Universidad de Lima",
+        "location": "Monterrico",
+        "nextAvailableTime": "12:45",
+        "rating": 4.6,
+        "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipMlTl5dKrCx0IjEsSilTngGBmwV4xB35rgLt0OR=w408-h306-k-no",
+        "driver": {
+          "name": "Ana Salas",
+          "photo": "https://plus.unsplash.com/premium_photo-1688350808212-4e6908a03925?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "vehiclePlate": "O6P-890",
+          "discount": "5%",
+          "discountCode": "ana-salas"
+        }
+      },
+      {
+        "id": "16",
+        "name": "Universidad Ricardo Palma",
+        "location": "Santiago de Surco",
+        "nextAvailableTime": "15:45",
+        "rating": 4.2,
+        "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipMRL3ltAX9cwFUhi2Q8tk-srKMxlHWyYQ0GQ-JM=s1360-w1360-h1020",
+        "driver": {
+          "name": "Daniela Soto",
+          "photo": "https://plus.unsplash.com/premium_photo-1690086519096-0594592709d3?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "vehiclePlate": "P7Q-123",
+          "discount": "7%",
+          "discountCode": "daniela-soto"
+        }
+      }
+    ]
+  }
